@@ -37,4 +37,4 @@ public:
 
     int getY();
     void setY(int n_x);
-}
+};

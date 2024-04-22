@@ -1,6 +1,4 @@
 #include <iostream>
-#ifndef POINT2D.hpp
-#define POINT2D .hpp
 
 using namespace std;
 class Point2d
@@ -16,6 +14,7 @@ public:
     void setY(int n_x);
 
     Point2d(int n_x, int n_y);
+    ~Point2d();
+
     friend ostream &operator<<(ostream &os, const Point2d &point);
 };
-#endif
